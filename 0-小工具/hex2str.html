@@ -1,0 +1,37 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ </head> 
+ <body> 
+  <div id="d1">
+  <h4>输入16进制</h4> 
+  <input type="text" id="hex" size="150"/> 
+  <br/>
+  <button onclick="get()">转换</button> 
+  <br/>
+  
+  
+  <h4>输出字符</h4> 
+  <textarea id="str" rows="47" cols="150"> 结果展示 </textarea>  
+  
+  <script type="text/javascript">
+     function get() {
+        document.getElementById('hex').value = document.getElementById('hex').value.replace(/\s/ig,'').replace(/\W/ig,'');
+    	var hi = document.getElementById('hex').value;
+     	var hj = prePro(hi);
+      	var str = document.getElementById('str');
+        str.innerHTML =  decodeURIComponent(hj);
+     }
+     
+    function prePro(data){
+      if (data.length % 2) return '';
+      var tmp='';
+      for(i=0;i<data.length;i+=2){
+        tmp += '%' + data.charAt(i) + data.charAt(i+1);
+      }
+      return tmp;
+    }
+  </script> 
+  </div>  
+ </body>
+</html>
