@@ -5,7 +5,6 @@ echo ************************************************************
 echo **                                                        **
 echo **               SmartAIBank  Install                    **
 echo **                                                        **
-echo **            http://dcfs.digitalchina.com                **
 echo **                                                        **
 echo ************************************************************
 set DB_PATH=%CD%
