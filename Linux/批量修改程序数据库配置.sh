@@ -1,14 +1,14 @@
 #!/bin/bash
 
 
-oldUrl='172.16.33.223:1521:qbcsit'
+oldUrl='172.0.0.1:1521:odldb'
 oldUser='vbank'
 oldPwd='e7ef402cb6e0f362'
 
 ## vbank = e7ef402cb6e0f362
 ## VBANK = 28ca6d1471cad9ce
 
-newUrl='172.16.32.202:1521:qbcsit'
+newUrl='172.16.32.202:1521:newdb'
 newUser='VBANK'
 newPwd='28ca6d1471cad9ce'
 
