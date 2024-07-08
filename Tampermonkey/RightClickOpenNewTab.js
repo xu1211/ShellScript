@@ -4,7 +4,7 @@
 // @version      2024-07-08
 // @description  RightClick span OpenNewTab
 // @author       Your Name
-// @match        https://*.xxx.com/*
+// @match        https://*.lotusflare.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        GM_registerMenuCommand
 // @grant        GM_getValue
