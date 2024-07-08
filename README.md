@@ -1,5 +1,6 @@
-# ShellScript
- 开发，生产用到的一些win,Linux脚本归档记录
+
+# Script
+ 开发，生产用到的一些 win, Linux, js 脚本归档记录
 
 ## linux
 >博客 https://blog.csdn.net/xyc1211/article/details/83218204
@@ -18,3 +19,7 @@
 ## html小工具
 - [16进制转string](./0-小工具/hex2str.html)
 - [des加解密](./0-小工具/DES加密解密.html)
+
+## Tampermonkey 油猴脚本
+- 定时判断活动是否开放
+- 右键元素打开新窗口
